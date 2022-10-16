@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Muda a fonte da página */
+}
+
+.row {
+    padding: 6px;
+}
+
+.button {
+    text-align: start; /* Coloca o botão no inicio */
+    padding: 5px;
+
+}
+
+fieldset {
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 15px;
+    border-color: black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.content {
+    background-color: #fff;
+    width: 500px;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 6px 10px black;
+
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #000000;
+    transition: 0.3s all ease-in-out;
+    outline: none;
+}
+
+legend {
+    font-size: 1.5rem;
+}
+
+input[id="nome"],
+input[id="email"],
+input[id="endereco"],
+input[id="telefone"]{
+    width: 300px;
+}
+
+input[type="submit"],                             
+input[type="reset"] {
+    border: none;
+    padding: 5px 10px;
+    background-color: #ff9a52;
+    border: name;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.5s all ease-in-out;
+
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+     transform:  scale(1.5,1.5);
+     background-color: #f3761d;
+}

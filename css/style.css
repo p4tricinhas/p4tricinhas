@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif; /*Muda a fonte da página*/
+}
+
+nav{
+    text-align: center; /*Alinha a navbar no centro da página*/
+}
+
+
+.submenu-item{
+    width: 150px;
+    height: 50px;
+    /*largura e altura dos subitens*/
+}
+.nav-bar ul li{
+    list-style: none;   /*Some com as bolinhas da lista*/
+    display: inline;    /*Coloca os itens em linha*/
+
+}
+
+.nav-bar ul li a{
+    font-size: 20px; /*Define o tamanho da fonte dos itens da navbar*/
+    padding: 0px 20px 0 20px; /*Adiciona margem interna nos itens da navbar*/
+    background-color: orange; /*Define a cor de fundo da navbar*/
+
+}
+
+.menu-item{
+    list-style: none; /*Apaga as bolinhas da lista*/
+    border:1px solid #c0c0c0 ; /*Adiciona uma borda nos menu itens*/
+    display: inline; 
+}
+
+.menu-item a:hover{
+background-color: aquamarine; /*muda a cor de fundo dos itens da navbar quando coloca o mouse por cima*/
+}
+.menu-item  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+
